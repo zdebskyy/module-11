@@ -7,7 +7,6 @@
 @import 'normalize.scss';
 @import 'base.scss';
 
-
 @import 'fonts/fonts.scss';
 
 @import 'placeholders/button.scss';
@@ -24,6 +23,17 @@
 @import 'components-header/section-title.scss';
 
 
-
 // COMPONENTS-SECTION-SERVICE//
 @import 'components-section-service/section-list.scss';
+@import 'components-section-service/section-service__item.scss';
+@import 'components-section-service/section-service__icon.scss';
+@import 'components-section-service/section-service__subtitle.scss';
+
+
+// COMPONENTS-SECTION-TEAM//
+@import 'components-section-team/team-card.scss';
+@import 'components-section-team/team-card-cover.scss';
+@import 'components-section-team/social-svg.scss';
+
+// COMPONENTS-FOOTER//
+@import 'components-footer/footer.scss';

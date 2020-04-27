@@ -1,0 +1,37 @@
+.section-team__text{
+    font-size: 15px;
+    font-family: $font-section-text;
+    font-weight: normal;
+    color: $color-text;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-team__item{
+    position: relative;
+
+    &:hover .section-team__photo{
+        transform: translate(-10px, -10px);
+        transition: 0.3s ease-in; 
+    }
+    &:hover .cover{
+        transform: translate(-10px, -10px);
+        transition: 0.3s ease-in;
+    }
+}
+.section-team__name{
+    font-size: 14px;
+    font-family: $font-primary;
+    color: $color-title;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+.section-team__position{
+    font-size: 15px;
+    font-family: $font-section-text;
+    color: $color-text;
+    line-height: 1.6;
+    font-style: italic;
+    text-align: center;
+}

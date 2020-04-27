@@ -1,0 +1,38 @@
+.section-service__icon::before{
+    display: block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section-service__icon--alarm{
+    background-image: url(../images/clock-svg.svg);
+    background-repeat: no-repeat;
+}
+.section-service__icon--line{
+    background-image: url(../images/line-svg.svg);
+    background-repeat: no-repeat;
+}
+.section-service__icon--pc{
+    background-image: url(../images/pc-svg.svg);
+    background-repeat: no-repeat;
+}
+.section-service__icon--book{
+    background-image: url(../images/book-svg.svg);
+    background-repeat: no-repeat;
+}
+.section-service__icon--home{
+    background-image: url(../images/home-svg.svg);
+    background-repeat: no-repeat;
+}
+.section-service__icon--image{
+    background-image: url(../images/image-svg.svg);
+    background-repeat: no-repeat;
+}
+.section-service__icon:nth-child(n+4){
+    margin-bottom: 0;
+}
+

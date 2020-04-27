@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    padding: 10px 0;
+    border-top: 1px solid #e5e5e5;
+}
+.footer__laaqiq{
+    color: #f59191;
+}
+.footer__mail{
+    margin-left: auto;
+    display: flex;
+}
+.footer__info{
+    display: flex;
+    font-size: 14px;
+    font-family: $font-primary;
+    line-height: 44px;
+}
+.footer__mail-button {
+    @extend %button;
+    background-color: rgb(149, 225, 211);
+    width: 150px;
+    height: 44px;
+  }
+
+.footer__mail-box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+    background-color: rgb(255, 255, 255);
+    width: 234px;
+    height: 44px;
+    margin-left: auto;
+    font-family: $font-primary, sans-serif;
+    font-style: italic;
+  }
