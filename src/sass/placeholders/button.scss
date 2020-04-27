@@ -1,0 +1,11 @@
+%button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  font-family: $font-primary;
+  text-transform: uppercase;
+  color: $color-primary;
+  font-weight: 700;
+  font-size: 14px;
+}

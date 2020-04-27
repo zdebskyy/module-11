@@ -1,0 +1,21 @@
+.nav-list{
+    display: flex;
+    min-width: 620px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list__link{
+    font-family: $font-primary;
+    font-size: 14px;
+    font-weight: 700;
+    color: $color-primary;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    line-height: 30px;
+
+    &:hover{
+    border-bottom: 3px solid $color-hover;
+    color: $color-hover;
+    }
+}

@@ -2,8 +2,28 @@
  * Все паршалы импортировать в этот файл
  */
 
+@import 'var.scss'; 
+
 @import 'normalize.scss';
 @import 'base.scss';
 
 
 @import 'fonts/fonts.scss';
+
+@import 'placeholders/button.scss';
+
+
+// COMPONENTS-HEADER//
+@import 'components-header/nav.scss';
+@import 'components-header/logo.scss';
+@import 'components-header/nav-list.scss';
+@import 'components-header/nav-svg.scss';
+@import 'components-header/banner.scss';
+@import 'components-header/section__button-more.scss';
+@import 'components-header/section.scss';
+@import 'components-header/section-title.scss';
+
+
+
+// COMPONENTS-SECTION-SERVICE//
+@import 'components-section-service/section-list.scss';

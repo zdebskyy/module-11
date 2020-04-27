@@ -1,0 +1,11 @@
+.logo{
+    font-family: $font-primary;
+    font-size: 30px;
+    font-weight: 700;
+    color: $color-primary;
+    text-transform: uppercase;
+
+    &:hover{
+        color: $color-hover;
+    }
+}
