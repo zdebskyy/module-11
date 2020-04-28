@@ -27,7 +27,7 @@
 .cover__link{
     width: 56px;
     height: 56px;
-    background-color: #fce38a;
+    background-color: $color-cover;
     margin-right: 2px;
     opacity: 0;
     display: flex;
@@ -35,7 +35,7 @@
     align-items: center;
     
     &:hover{
-    background-color: #f38181;
+    background-color: $color-cover-hover;
     transition: 0.3s ease-in;
 }
 }
